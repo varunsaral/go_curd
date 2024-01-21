@@ -1,7 +1,7 @@
 # Go CRUD Application
 
 This is a simple CRUD (Create, Read, Update, Delete) application written in Go.
-This project uses PostgreSQL for the database and Gorm with the PostgreSQL adapter for storing data.
+This project uses PostgreSQL & gorm for storing tasks
 Logrus is used for logging.
 
 ## Getting Started
