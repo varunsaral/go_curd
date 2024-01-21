@@ -16,7 +16,7 @@ func init() {
 func main() {
 	r := gin.Default()
 	r.GET("/", func(c *gin.Context) {
-		c.String(200, "Hello, varun !")
+		c.String(200, "Hello, world!")
 	})
 	PORT := os.Getenv("PORT")
 	r.Run("localhost:"+PORT) // listen and serve on 0.0.0.0:8080
